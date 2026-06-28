@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "ShareToys",
+    "slug": "sharetoys",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#c2945f" }
+    },
+    "extra": {
+      "apiUrl": "http://localhost:5000/api",
+      "cloudinaryCloudName": "your_cloud_name",
+      "cloudinaryUploadPreset": "your_unsigned_preset_name"
+    }
+  }
+}

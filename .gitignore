@@ -1,0 +1,6 @@
+cd D:\internship\sharetoys
+@'
+node_modules/
+.env
+dist/
+'@ | Set-Content .gitignore
